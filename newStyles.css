@@ -1,0 +1,532 @@
+/* Master Styles*/
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.containerNav {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav Styles */
+.logo {
+    height: 1%;
+    padding: 1%;  
+}
+
+.headingWrapper {
+    background-color: #f8f9fa!important;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.leftside {
+    display: flex;
+}
+
+.nav-wrapper > .leftside > div {
+    margin-right: 20px;
+    font-size: .9m;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.rightside {
+    display: none;
+}
+
+/* Core Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    margin:0;
+    padding: 1em 0;
+}
+
+p {
+    margin:0;
+    padding: 1em 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: .5em 0;
+}
+
+.btn:hover {
+    background: #eeaaee
+    color: #333
+}
+
+/* Header Showcase */
+
+#showcase {
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+#showcase2 {
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+#showcase .bg-image {
+    position: absolute;
+    background: darkblue
+    url('images/naeemActionCropped.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -2;
+    opacity: 0.5;
+}
+
+#showcase .shading-bg-image {
+    position: absolute;
+    background: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#showcase2 .tutor-bg-image {
+    position: absolute;
+    background: #333
+    url('images/calendar\ image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase2 .team-bg-image {
+    position: absolute;
+    background: #333
+    url('images/TennisTeamPicCropped2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase2 .merch-bg-image {
+    position: absolute;
+    background: #333
+    url('images/tennisShirt.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase h1 {
+    padding-top: 100px;
+    padding-bottom:0;
+}
+
+#showcase .content-wrap {
+    padding: 0 1.5em
+}
+
+/* Section A */
+
+#section-a {
+    background-color: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+
+#section-a .content-text p {
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Section B */
+
+#section-b {
+    padding: 2em 1em 1em;
+}
+
+#section-b2 {
+    background-color: #eaeaea;
+    padding: 2em 1em 1em;
+}
+
+#section-b ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+#section-b2 ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#section-b2 li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+.nav-link-wrapper2 {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-bottom: 2em;
+}
+
+.nav-link-wrapper2 a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper2:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper2 a:hover {
+    color: blue;
+    font-weight: bold;
+    
+}
+
+
+/* Section C */
+
+#section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+.score {
+    display: inline;
+
+}
+
+#section-c .content-title {
+    padding-bottom: 1em;
+}
+
+.ratingFirst {
+    color:gold;
+    padding-bottom: 2em;
+}
+
+.rating {
+    color: gold;
+}
+
+
+.review-content {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background: white;
+    border: solid black;
+    border-top: none;
+}
+
+.review-content:first-child {
+    border: solid black;
+}
+
+/* Section D */
+
+#section-d .box {
+    padding: 2em;
+    color: #fff;
+}
+
+#section-d .box:first-child {
+    background: #2690d4;
+}
+
+/* Tutor Section */
+
+.tutor-content {
+    display: flex;  
+}
+
+.top-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Package-Title {
+    justify-content: center;
+    color: #000;
+}
+
+.rightside-tutor {
+    align-self: right;
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.tutor-Image {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    padding: 1em;
+}
+
+.tutor-words {
+    color: black;
+    text-align: right;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.tutor-qualifications{
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 14px;
+    padding-left: 1em;
+}
+
+
+.tutor {
+    /*border: black;*/
+    border: 10px solid #000;
+    background-color: white;
+}
+
+
+.nav-link-wrapper-tutor {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-bottom: 1em;
+}
+
+.nav-link-wrapper-tutor a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper-tutor:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper-tutor a:hover {
+    color: blue;
+    font-weight: bold;
+    
+}
+
+
+/* Footer */
+
+#main-footer {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#main-footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+.nav-link-wrapper-contact {
+    height: 22px;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper-contact a{
+    color: #2690d4;
+    text-decoration: none;
+}
+
+.nav-link-wrapper-contact a:hover {
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+/* Media Query */
+
+@media(min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr
+    }
+
+    .rightside {
+        display: inline-block;
+    }
+
+    .logo {
+        height: 50px;
+        width: 500px;  
+    }
+
+    #showcase {
+        min-height: 600px;
+        
+    }
+
+    #showcase .bg-image {
+        height: 600px;
+    }
+
+    #showcase .shading-bg-image {
+        height: 600px;
+    }
+
+    #section-a .content-text {
+        columns: 2;
+        column-gap: 2em;
+    }
+    #section-a .content-text p {
+        padding-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .content-wrap,
+    #section-b ul {
+        grid-column: 2/4;
+
+    }
+
+    .content-wrap,
+    #section-b2 ul {
+        grid-column: 2/4;
+
+    }
+
+    .box, #main-footer div {
+        grid-column: span 2;
+    }
+
+    #section-b ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b li {
+        width: 31%
+    }
+
+    #section-b2 ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b2 li {
+        width: 31%
+    }
+
+    .tutor-words {
+        color: black;
+        text-align: right;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    
+    .tutor-qualifications{
+        color: black;
+        text-align: left;
+        font-weight: lighter;
+        font-size: 12px;
+        padding-left: 1em;
+    }
+}
+
+@media(min-width: 1100px) {
+    #showcase {
+        min-height: 800px;
+        
+    }
+
+    #showcase .bg-image {
+        height: 800px;
+    }
+
+    #showcase .shading-bg-image {
+        height: 800px;
+    }
+}
