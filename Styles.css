@@ -575,7 +575,7 @@ p {
 
 #main-footer {
     position: absolute;
-    top: 465%;
+    top: 489%;
     width: 100%;
     padding: 2em;
     background: #000;
@@ -857,10 +857,20 @@ p {
     .packageWrapper {
         position: absolute;
         background-color: darkgrey;
-        top: 550%;
+        top: 540%;
         left: 50%;
         transform: translate(-50%);
         width: 100%;
+    }
+
+    #main-footer {
+        position: absolute;
+        top: 719%;
+        width: 100%;
+        padding: 2em;
+        background: #000;
+        color: #fff;
+        text-align: center;
     }
 
 }
