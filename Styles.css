@@ -1,0 +1,866 @@
+/* Master Styles*/
+body {
+    margin: 0px;
+}
+
+#animTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*animation: fill 0.5s ease forwards ;*/
+}
+
+#animTitle path:nth-child(1) {
+    stroke-dasharray: 10px;
+}
+#animTitle path:nth-child(2) {
+    stroke-dasharray: 451px;
+    stroke-dashoffset: 451px;
+    animation: line-anim 2s ease forwards;
+}
+#animTitle path:nth-child(3) {
+    stroke-dasharray: 288px;
+    stroke-dashoffset: 288px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+#animTitle path:nth-child(4) {
+    stroke-dasharray: 221px;
+    stroke-dashoffset: 221px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+#animTitle path:nth-child(5) {
+    stroke-dasharray: 328px;
+    stroke-dashoffset: 328px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+#animTitle path:nth-child(6) {
+    stroke-dasharray: 451px;
+    stroke-dashoffset: 451px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#animTitle path:nth-child(7) {
+    stroke-dasharray: 328px;
+    stroke-dashoffset: 328px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+#animTitle path:nth-child(8) {
+    stroke-dasharray: 451px;
+    stroke-dashoffset: 451px;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+#animTitle path:nth-child(9) {
+    stroke-dasharray: 588px;
+    stroke-dashoffset: 588px;
+    animation: line-anim 2s ease forwards 2.1s;
+}
+#animTitle path:nth-child(10) {
+    stroke-dasharray: 588px;
+    stroke-dashoffset: 588px;
+    animation: line-anim 2s ease forwards 2.4s;
+}
+#animTitle path:nth-child(11) {
+    stroke-dasharray: 221px;
+    stroke-dashoffset: 221px;
+    animation: line-anim 2s ease forwards 2.7s;
+}
+#animTitle path:nth-child(12) {
+    stroke-dasharray: 481px;
+    stroke-dashoffset: 481px;
+    animation: line-anim 2s ease forwards 3s;
+}
+#animTitle path:nth-child(13) {
+    stroke-dasharray: 477px;
+    stroke-dashoffset: 477px;
+    animation: line-anim 2s ease forwards 3s;
+}
+#animTitle path:nth-child(14) {
+    stroke-dasharray: 494px;
+    stroke-dashoffset: 494px;
+    animation: line-anim 2s ease forwards 3s;
+}
+#animTitle path:nth-child(15) {
+    stroke-dasharray: 477px;
+    stroke-dashoffset: 477px;
+    animation: line-anim 2s ease forwards 3s;
+}
+#animTitle path:nth-child(16) {
+    stroke-dasharray: 556px;
+    stroke-dashoffset: 556px;
+    animation: line-anim 2s ease forwards 3s;
+}
+#animTitle path:nth-child(17) {
+    stroke-dasharray: 451px;
+    stroke-dashoffset: 451px;
+    animation: line-anim 2s ease forwards 3s;
+}
+#animTitle path:nth-child(18) {
+    stroke-dasharray: 734px;
+    stroke-dashoffset: 734px;
+    animation: line-anim 2s ease forwards 3s;
+}
+#animTitle path:nth-child(19) {
+    stroke-dasharray: 362px;
+    stroke-dashoffset: 362px;
+    animation: line-anim 2s ease forwards 3s;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0px;
+    }
+}
+@keyframes fill {
+    to {
+        fill: white;
+    }
+}
+
+#main {
+    background: white
+    url('images/TennisTrees.jpg');
+    height: 100%;
+    z-index: -2;
+}
+
+/* HOME */
+#mission {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    font-family: American Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+    transition: transform 0.2s;
+}
+
+#mission:hover {
+    transform: rotateX(30deg);
+    transform: rotateY(30deg);
+}
+
+#coaches {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    font-family: American Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+
+    transition: transform 0.2s;
+}
+
+#coaches:hover {
+    transform: rotateX(30deg);
+    transform: rotateY(30deg);
+}
+#packages {
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+    font-family: American Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+    transition: transform 0.2s;
+}
+#packages:hover {
+    transform: rotateX(30deg);
+    transform: rotateY(30deg);
+}
+#merch {
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    font-family: American Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+    transition: transform 0.2s;
+}
+#merch:hover {
+    transform: rotateX(30deg);
+    transform: rotateY(30deg);
+}
+/* Core Styles */
+
+body {
+    
+    margin: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    /*background-color: darkblue;*/
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    margin:0;
+    padding: 1em 0;
+}
+
+p {
+    margin:0;
+    padding: .25em 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: .5em 0;
+}
+
+.btn:hover {
+    background: #eeaaee
+    color: #333
+}
+
+/* Header Showcase */
+
+#showcase {
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+}
+#showcase .bg-image-tennis {
+    position: absolute;
+    background: white
+    url('images/TennisBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    opacity: 1;
+}
+
+#showcase .shading-bg-image {
+    position: absolute;
+    background: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#showcase2 .tutor-bg-image {
+    position: absolute;
+    background: #333
+    url('images/calendar\ image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase2 .team-bg-image {
+    position: absolute;
+    background: #333
+    url('images/TennisTeamPicCropped2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase2 .merch-bg-image {
+    position: absolute;
+    background: #333
+    url('images/tennisShirt.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase h1 {
+    padding-top: 100px;
+    padding-bottom:0;
+}
+
+#showcase .content-wrap {
+    padding: 0 1.5em
+}
+
+/* Section A */
+
+#section-a {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+    size: 300px;
+}
+
+#section-a .content-text p {
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.missionWrapper {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 60%;
+    background-image: url('images/TennisTrees.jpg');
+    background-size: 100%;
+    
+}
+
+.mission-state {
+    position: absolute;
+    top: 101%
+}
+
+/* Section B */
+
+#section-b {
+    padding: 2em 1em 1em;
+}
+#section-b h1 {
+    color: black;
+}
+.namewrapper{
+    color: black;
+    font-size: large;
+    z-index: 1;
+}
+
+.coachWrapper {
+    background-color: rgb(173, 206, 183);
+    position: absolute;
+    top: 160%;
+    width: 100%;
+}
+
+
+#section-b ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+#section-b2 ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#section-b2 li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+.nav-link-wrapper2 {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-bottom: 2em;
+}
+
+.nav-link-wrapper2 a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper2:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper2 a:hover {
+    color: blue;
+    font-weight: bold;
+    
+}
+
+
+/* Section C */
+
+.packageWrapper {
+    background-color: darkgrey;
+    position: absolute;
+    top: 294%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+}
+
+#section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+.score {
+    display: inline;
+
+}
+
+#section-c .content-title {
+    padding-bottom: 1em;
+}
+
+.ratingFirst {
+    color:gold;
+    padding-bottom: 2em;
+}
+
+.rating {
+    color: gold;
+}
+
+
+.review-content {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background: white;
+    border: solid black;
+    border-top: none;
+}
+
+.review-content:first-child {
+    border: solid black;
+}
+
+/* Section D */
+
+#section-d .box {
+    padding: 2em;
+    color: #fff;
+}
+
+#section-d .box:first-child {
+    background: #2690d4;
+}
+
+/* Tutor Section */
+
+.tutor-content {
+    display: flex;  
+}
+
+.top-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Package-Title {
+    justify-content: center;
+    color: #000;
+}
+
+.rightside-tutor {
+    align-self: right;
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.tutor-Image {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    padding: 1em;
+}
+
+.tutor-words {
+    color: black;
+    text-align: right;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.tutor-qualifications{
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-left: 1em;
+}
+
+
+.tutor {
+    /*border: black;*/
+    border: 10px solid #000;
+    background-color: white;
+}
+
+
+.nav-link-wrapper-tutor {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-bottom: 1em;
+}
+
+.nav-link-wrapper-tutor a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper-tutor:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper-tutor a:hover {
+    color: blue;
+    font-weight: bold;
+    
+}
+
+
+/* Footer */
+
+#main-footer {
+    position: absolute;
+    top: 465%;
+    width: 100%;
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#main-footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+.nav-link-wrapper-contact {
+    height: 22px;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper-contact a{
+    color: #2690d4;
+    text-decoration: none;
+}
+
+.nav-link-wrapper-contact a:hover {
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+/* Media Query */
+
+@media(min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr
+    }
+
+    .rightside {
+        display: inline-block;
+    }
+
+    .logo {
+        height: 50px;
+        width: 500px;  
+    }
+
+    #showcase {
+        min-height: 600px;
+        
+    }
+
+    #showcase .bg-image {
+        height: 600px;
+    }
+
+    #showcase .shading-bg-image {
+        height: 600px;
+    }
+
+    #section-a .content-text {
+        columns: 1;
+        column-gap: 1em;
+    }
+    #section-a .content-text p {
+        padding-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .content-wrap,
+    #section-b ul {
+        grid-column: 2/4;
+
+    }
+
+    .content-wrap,
+    #section-b2 ul {
+        grid-column: 2/4;
+
+    }
+
+    .box, #main-footer div {
+        grid-column: span 2;
+    }
+
+    #section-b ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b li {
+        width: 31%
+    }
+
+    #section-b2 ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b2 li {
+        width: 31%
+    }
+
+    .tutor-words {
+        color: black;
+        text-align: right;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    
+    .tutor-qualifications{
+        color: black;
+        text-align: left;
+        font-weight: lighter;
+        font-size: 18px;
+        padding-left: 1em;
+    }
+}
+@media(min-width: 800px) {
+    #animTitleMobile {
+        display: none;
+    }
+    
+
+}
+@media(max-width: 800px) {
+
+    #showcase .bg-image-tennis {
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        z-index: -2;
+        opacity: 1;
+    }
+    #animTitle {
+        display: none;
+    }
+
+    #animTitleMobile {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: fill 0.5s ease forwards 4s;
+    }
+    
+    #animTitleMobile path:nth-child(1) {
+        stroke-dasharray: 10px;
+    }
+    #animTitleMobile path:nth-child(2) {
+        stroke-dasharray: 451px;
+        stroke-dashoffset: 451px;
+        animation: line-anim 2s ease forwards;
+    }
+    #animTitleMobile path:nth-child(3) {
+        stroke-dasharray: 288px;
+        stroke-dashoffset: 288px;
+        animation: line-anim 2s ease forwards 0.3s;
+    }
+    #animTitleMobile path:nth-child(4) {
+        stroke-dasharray: 221px;
+        stroke-dashoffset: 221px;
+        animation: line-anim 2s ease forwards 0.6s;
+    }
+    #animTitleMobile path:nth-child(5) {
+        stroke-dasharray: 328px;
+        stroke-dashoffset: 328px;
+        animation: line-anim 2s ease forwards 0.9s;
+    }
+    #animTitleMobile path:nth-child(6) {
+        stroke-dasharray: 451px;
+        stroke-dashoffset: 451px;
+        animation: line-anim 2s ease forwards 1.2s;
+    }
+    #animTitleMobile path:nth-child(7) {
+        stroke-dasharray: 328px;
+        stroke-dashoffset: 328px;
+        animation: line-anim 2s ease forwards 1.5s;
+    }
+    #animTitleMobile path:nth-child(8) {
+        stroke-dasharray: 451px;
+        stroke-dashoffset: 451px;
+        animation: line-anim 2s ease forwards 1.8s;
+    }
+    #animTitleMobile path:nth-child(9) {
+        stroke-dasharray: 588px;
+        stroke-dashoffset: 588px;
+        animation: line-anim 2s ease forwards 2.1s;
+    }
+    #animTitleMobile path:nth-child(10) {
+        stroke-dasharray: 588px;
+        stroke-dashoffset: 588px;
+        animation: line-anim 2s ease forwards 2.4s;
+    }
+    #animTitleMobile path:nth-child(11) {
+        stroke-dasharray: 221px;
+        stroke-dashoffset: 221px;
+        animation: line-anim 2s ease forwards 2.7s;
+    }
+    #animTitleMobile path:nth-child(12) {
+        stroke-dasharray: 481px;
+        stroke-dashoffset: 481px;
+        animation: line-anim 2s ease forwards 3s;
+    }
+    #animTitleMobile path:nth-child(13) {
+        stroke-dasharray: 477px;
+        stroke-dashoffset: 477px;
+        animation: line-anim 2s ease forwards 3s;
+    }
+    #animTitleMobile path:nth-child(14) {
+        stroke-dasharray: 494px;
+        stroke-dashoffset: 494px;
+        animation: line-anim 2s ease forwards 3s;
+    }
+    #animTitleMobile path:nth-child(15) {
+        stroke-dasharray: 477px;
+        stroke-dashoffset: 477px;
+        animation: line-anim 2s ease forwards 3s;
+    }
+    #animTitleMobile path:nth-child(16) {
+        stroke-dasharray: 556px;
+        stroke-dashoffset: 556px;
+        animation: line-anim 2s ease forwards 3s;
+    }
+    #animTitleMobile path:nth-child(17) {
+        stroke-dasharray: 451px;
+        stroke-dashoffset: 451px;
+        animation: line-anim 2s ease forwards 3s;
+    }
+    #animTitleMobile path:nth-child(18) {
+        stroke-dasharray: 734px;
+        stroke-dashoffset: 734px;
+        animation: line-anim 2s ease forwards 3s;
+    }
+    #animTitleMobile path:nth-child(19) {
+        stroke-dasharray: 362px;
+        stroke-dashoffset: 362px;
+        animation: line-anim 2s ease forwards 3s;
+    }
+    
+    @keyframes line-anim {
+        to {
+            stroke-dashoffset: 0px;
+        }
+    }
+    @keyframes fill {
+        from {
+            fill:transparent;
+        }
+        to {
+            fill: white;
+        }
+    }
+
+    .missionWrapper {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        background-image: url('images/TennisTrees.jpg');
+        background-size: 100%;
+        
+    }
+
+    #section-a {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%);
+        background-color: #eaeaea;
+        color: #333;
+        padding-bottom: 2em;
+        size: 300px;
+    }
+
+    .packageWrapper {
+        position: absolute;
+        background-color: darkgrey;
+        top: 550%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+    }
+
+}
