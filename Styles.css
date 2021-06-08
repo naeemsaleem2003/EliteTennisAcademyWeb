@@ -244,18 +244,19 @@ p {
 
 .btn:hover {
     background: #eeaaee
-    color: #333
+    color: #333;
 }
 
 /* Header Showcase */
 
 #showcase {
     min-height: 450px;
-    color: #fff;
+    width: 100%;
+    
     text-align: center;
 }
 #showcase .bg-image-tennis {
-    position: absolute;
+    /*position: absolute;*/
     background: white
     url('images/TennisBackground.jpg');
     background-position: center;
@@ -267,56 +268,6 @@ p {
     opacity: 1;
 }
 
-#showcase .shading-bg-image {
-    position: absolute;
-    background: blue;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-    opacity: 0.2;
-}
-
-#showcase2 .tutor-bg-image {
-    position: absolute;
-    background: #333
-    url('images/calendar\ image.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-    opacity: 0.7;
-}
-
-#showcase2 .team-bg-image {
-    position: absolute;
-    background: #333
-    url('images/TennisTeamPicCropped2.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-    opacity: 0.7;
-}
-
-#showcase2 .merch-bg-image {
-    position: absolute;
-    background: #333
-    url('images/tennisShirt.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-    opacity: 0.7;
-}
 
 #showcase h1 {
     padding-top: 100px;
@@ -330,9 +281,10 @@ p {
 /* Section A */
 
 #section-a {
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 50%;
+    width: 70%;
     transform: translate(-50%);
     background-color: #eaeaea;
     color: #333;
@@ -347,10 +299,10 @@ p {
 }
 
 .missionWrapper {
-    position: absolute;
-    top: 100%;
+    /*position: absolute;
+    top: 100%;*/
     width: 100%;
-    height: 60%;
+    height: 70%;
     background-image: url('images/TennisTrees.jpg');
     background-size: 100%;
     
@@ -377,9 +329,9 @@ p {
 
 .coachWrapper {
     background-color: rgb(173, 206, 183);
-    position: absolute;
+    /*position: absolute;
     top: 160%;
-    width: 100%;
+    width: 100%;*/
 }
 
 
@@ -439,8 +391,8 @@ p {
 
 .packageWrapper {
     background-color: darkgrey;
-    position: absolute;
-    top: 294%;
+    position: relative;
+    /*top: 294%;*/
     left: 50%;
     transform: translate(-50%);
     width: 100%;
@@ -574,8 +526,8 @@ p {
 /* Footer */
 
 #main-footer {
-    position: absolute;
-    top: 489%;
+    /*position: absolute;
+    top: 489%;*/
     width: 100%;
     padding: 2em;
     background: #000;
@@ -703,7 +655,7 @@ p {
 }
 @media(max-width: 800px) {
 
-    #showcase .bg-image-tennis {
+    /*#showcase .bg-image-tennis {
         position: absolute;
         background-position: center;
         background-repeat: no-repeat;
@@ -712,7 +664,7 @@ p {
         height: 100vh;
         z-index: -2;
         opacity: 1;
-    }
+    }*/
     #animTitle {
         display: none;
     }
@@ -832,7 +784,7 @@ p {
             fill: white;
         }
     }
-
+/*
     .missionWrapper {
         position: absolute;
         top: 100%;
@@ -872,5 +824,5 @@ p {
         color: #fff;
         text-align: center;
     }
-
+*/
 }
