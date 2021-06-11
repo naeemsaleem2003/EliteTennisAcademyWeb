@@ -3,6 +3,14 @@ body {
     margin: 0px;
 }
 
+.btn-primary {
+    background-color: blue !important;
+}
+.btn-primary:hover {
+    background-color: darkblue !important;
+}
+
+
 #animTitle {
     position: absolute;
     top: 50%;
