@@ -10,6 +10,20 @@ body {
     background-color: darkblue !important;
 }
 
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+.locationWrapper h1 {
+    color: black;
+}
+.locationWrapper p {
+    color: black;
+    align-self: left;
+}
 
 #animTitle {
     position: absolute;
